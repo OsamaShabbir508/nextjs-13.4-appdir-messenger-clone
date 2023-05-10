@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import AuthForm from "./components/AuthForm";
+import Button from "../components/Button";
 function page() {
   return (
     <div className="flex flex-col min-h-screen  justify-center items-center bg-gray-100">
@@ -11,6 +12,7 @@ function page() {
         Sign in to your account!
       </h1>
       <AuthForm/>
+      
     </div>
   );
 }
